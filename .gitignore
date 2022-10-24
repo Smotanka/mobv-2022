@@ -21,3 +21,23 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# idea
+/.idea
+.idea
+
+# gradle
+/.gradle
+.gradle
+
+
+# build
+/build
+
+# other shit
+local.properties
+
+/app/proguard-rules.pro
+/gradle.properties
+/gradlew.bat
+/gradlew
