@@ -17,78 +17,142 @@
 13        android:protectionLevel="signature" />
 13-->[androidx.core:core:1.9.0] C:\Users\marti\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 14
-15    <uses-permission android:name="com.example.a01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15    <uses-permission android:name="com.example.a01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Permission will be merged into the manifest of the hosting app. -->
 15-->[androidx.core:core:1.9.0] C:\Users\marti\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 15-->[androidx.core:core:1.9.0] C:\Users\marti\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:5:5-28:19
-18        android:allowBackup="true"
-18-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\marti\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:fullBackupContent="@xml/backup_rules"
-22-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:8:9-54
-23        android:icon="@mipmap/ic_launcher"
-23-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:9:9-43
-24        android:label="@string/app_name"
-24-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:10:9-41
-25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:11:9-54
-26        android:supportsRtl="true"
-26-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:12:9-35
-27        android:testOnly="true"
-28        android:theme="@style/Theme.01" >
-28-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:13:9-40
-29        <activity
-29-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:15:9-27:20
-30            android:name="com.example.a01.MainActivity"
-30-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:16:13-41
-31            android:exported="true" >
-31-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:17:13-36
-32            <intent-filter>
-32-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:18:13-22:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:19:17-69
-33-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:19:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:21:17-77
-35-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:21:27-74
-36            </intent-filter>
-37
-38            <meta-data
-38-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:24:13-26:36
-39                android:name="android.app.lib_name"
-39-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:25:17-52
-40                android:value="" />
-40-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:26:17-33
-41        </activity>
-42
-43        <provider
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-44            android:name="androidx.startup.InitializationProvider"
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-45            android:authorities="com.example.a01.androidx-startup"
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-46            android:exported="false" >
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-47            <meta-data
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-49                android:value="androidx.startup" />
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\marti\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\marti\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\marti\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-53        </provider>
-54    </application>
-55
-56</manifest>
+16    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:13:5-77
+17-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:13:22-74
+18
+19    <application
+19-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:5:5-28:19
+20        android:allowBackup="true"
+20-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\marti\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:7:9-65
+23        android:debuggable="true"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:8:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:9:9-43
+26        android:label="@string/app_name"
+26-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:10:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:11:9-54
+28        android:supportsRtl="true"
+28-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:12:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.01" >
+30-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:13:9-40
+31        <activity
+31-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:15:9-27:20
+32            android:name="com.example.a01.MainActivity"
+32-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:16:13-41
+33            android:exported="true" >
+33-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:17:13-36
+34            <intent-filter>
+34-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:18:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:19:17-69
+35-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:21:17-77
+37-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39
+40            <meta-data
+40-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:24:13-26:36
+41                android:name="android.app.lib_name"
+41-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:25:17-52
+42                android:value="" />
+42-->D:\Mobv\mobv-2022\app\src\main\AndroidManifest.xml:26:17-33
+43        </activity>
+44
+45        <uses-library
+45-->[androidx.window:window:1.0.0] C:\Users\marti\.gradle\caches\transforms-3\59cc7bfaee96798b7702f2d6d4e8e0bd\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+46            android:name="androidx.window.extensions"
+46-->[androidx.window:window:1.0.0] C:\Users\marti\.gradle\caches\transforms-3\59cc7bfaee96798b7702f2d6d4e8e0bd\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+47            android:required="false" />
+47-->[androidx.window:window:1.0.0] C:\Users\marti\.gradle\caches\transforms-3\59cc7bfaee96798b7702f2d6d4e8e0bd\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+48        <uses-library
+48-->[androidx.window:window:1.0.0] C:\Users\marti\.gradle\caches\transforms-3\59cc7bfaee96798b7702f2d6d4e8e0bd\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+49            android:name="androidx.window.sidecar"
+49-->[androidx.window:window:1.0.0] C:\Users\marti\.gradle\caches\transforms-3\59cc7bfaee96798b7702f2d6d4e8e0bd\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0] C:\Users\marti\.gradle\caches\transforms-3\59cc7bfaee96798b7702f2d6d4e8e0bd\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.a01.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\marti\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\marti\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\marti\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\marti\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider> <!-- The activities will be merged into the manifest of the hosting app. -->
+63        <activity
+63-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:18:9-24:45
+64            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+64-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:19:13-100
+65            android:enabled="false"
+65-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:20:13-36
+66            android:exported="false"
+66-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:21:13-37
+67            android:launchMode="singleInstance"
+67-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:22:13-48
+68            android:process=":playcore_missing_splits_activity"
+68-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:23:13-64
+69            android:stateNotNeeded="true" />
+69-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:24:13-42
+70        <activity
+70-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:25:9-29:65
+71            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+71-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:26:13-93
+72            android:exported="false"
+72-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:27:13-37
+73            android:stateNotNeeded="true"
+73-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:28:13-42
+74            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+74-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:29:13-62
+75        <service
+75-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:32:9-39:19
+76            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+76-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:33:13-94
+77            android:enabled="false"
+77-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:34:13-36
+78            android:exported="true" >
+78-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:35:13-36
+79            <meta-data
+79-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:36:13-38:41
+80                android:name="com.google.android.play.core.assetpacks.versionCode"
+80-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:37:17-83
+81                android:value="11003" />
+81-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:38:17-38
+82        </service>
+83        <service
+83-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:40:9-43:40
+84            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+84-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:41:13-95
+85            android:enabled="false"
+85-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:42:13-36
+86            android:exported="false" />
+86-->[com.google.android.play:core:1.10.3] C:\Users\marti\.gradle\caches\transforms-3\064344059ae492c739d2443df1bae705\transformed\core-1.10.3\AndroidManifest.xml:43:13-37
+87    </application>
+88
+89</manifest>

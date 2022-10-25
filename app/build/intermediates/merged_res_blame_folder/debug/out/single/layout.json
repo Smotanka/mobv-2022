@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.a01.app-mergeDebugResources-48:/layout/fragment_data.xml",
+        "source": "com.example.a01.app-main-51:/layout/fragment_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\marti\\.gradle\\daemon\\7.4\\com.example.a01.app-mergeDebugResources-48:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\marti\\.gradle\\daemon\\7.4\\com.example.a01.app-main-51:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\marti\\.gradle\\daemon\\7.4\\com.example.a01.app-mergeDebugResources-48:\\layout\\fragment_data.xml",
+        "source": "C:\\Users\\marti\\.gradle\\daemon\\7.4\\com.example.a01.app-main-51:\\layout\\fragment_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\marti\\.gradle\\daemon\\7.4\\com.example.a01.app-mergeDebugResources-48:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\marti\\.gradle\\daemon\\7.4\\com.example.a01.app-main-51:\\layout\\activity_main.xml"
+    }
+]
